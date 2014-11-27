@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ageResult: UILabel!
+    
     @IBOutlet weak var DogAge: UITextField!
     
     @IBAction func buttonPressed(sender: AnyObject) {
         
-        println(DogAge.text)
+        var age = DogAge.text.toInt()
+        age = age! * 7
+        ageResult.text = "Your dog is \(age!) years old!"
+        
     }
     
     override func viewDidLoad() {
