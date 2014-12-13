@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             
         } else {
             
-            ageResult.text = "Please enter a number into the box."
+            ageResult.text = "Please enter a number."
         
         }
 
