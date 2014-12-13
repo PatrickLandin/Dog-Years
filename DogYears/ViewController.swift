@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var ageResult: UILabel!
     
@@ -16,10 +16,26 @@ class ViewController: UIViewController {
     
     @IBAction func buttonPressed(sender: AnyObject) {
         
-        var age = DogAge.text.toInt()
-        age = age! * 7
-        ageResult.text = "Your dog is \(age!) years old!"
+        // Age calcualtion
+        var age = DogAge?.text.toInt()
         
+        if (age) != nil {
+        
+        age = age! * 7
+        
+        ageResult.text = "Your dog is \(age!) years old!"
+            
+        } else {
+            
+            ageResult.text = "Please enter a number into the box."
+        
+        }
+
+    // Dismissing keyboard
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+        }
     }
     
     override func viewDidLoad() {

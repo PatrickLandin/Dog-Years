@@ -13,7 +13,7 @@
 		EC2D2F461A25BEB0005F3159 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2D2F451A25BEB0005F3159 /* Images.xcassets */; };
 		EC2D2F491A25BEB0005F3159 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC2D2F471A25BEB0005F3159 /* LaunchScreen.xib */; };
 		EC2D2F551A25BEB0005F3159 /* DogYearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D2F541A25BEB0005F3159 /* DogYearsTests.swift */; };
-		EC2D2F5F1A25C16B005F3159 /* ZanderWee.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EC2D2F5E1A25C16B005F3159 /* ZanderWee.JPG */; };
+		ECDEFF7A1A3CD76800855B1A /* ZanderWee.JPG in Resources */ = {isa = PBXBuildFile; fileRef = ECDEFF791A3CD76800855B1A /* ZanderWee.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		EC2D2F4E1A25BEB0005F3159 /* DogYearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogYearsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2D2F531A25BEB0005F3159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC2D2F541A25BEB0005F3159 /* DogYearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogYearsTests.swift; sourceTree = "<group>"; };
-		EC2D2F5E1A25C16B005F3159 /* ZanderWee.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ZanderWee.JPG; path = ../../../../Downloads/ZanderWee.JPG; sourceTree = "<group>"; };
+		ECDEFF791A3CD76800855B1A /* ZanderWee.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ZanderWee.JPG; path = ../../../../Pictures/Stuff/ZanderWee.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 				EC2D2F401A25BEAF005F3159 /* ViewController.swift */,
 				EC2D2F421A25BEAF005F3159 /* Main.storyboard */,
 				EC2D2F451A25BEB0005F3159 /* Images.xcassets */,
-				EC2D2F5E1A25C16B005F3159 /* ZanderWee.JPG */,
+				ECDEFF791A3CD76800855B1A /* ZanderWee.JPG */,
 				EC2D2F471A25BEB0005F3159 /* LaunchScreen.xib */,
 				EC2D2F3C1A25BEAF005F3159 /* Supporting Files */,
 			);
@@ -195,8 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDEFF7A1A3CD76800855B1A /* ZanderWee.JPG in Resources */,
 				EC2D2F441A25BEAF005F3159 /* Main.storyboard in Resources */,
-				EC2D2F5F1A25C16B005F3159 /* ZanderWee.JPG in Resources */,
 				EC2D2F491A25BEB0005F3159 /* LaunchScreen.xib in Resources */,
 				EC2D2F461A25BEB0005F3159 /* Images.xcassets in Resources */,
 			);
@@ -409,6 +409,7 @@
 				EC2D2F5A1A25BEB0005F3159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2D2F5B1A25BEB0005F3159 /* Build configuration list for PBXNativeTarget "DogYearsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				EC2D2F5D1A25BEB0005F3159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
